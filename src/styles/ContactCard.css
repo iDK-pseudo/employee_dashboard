@@ -1,3 +1,7 @@
 .card-container.contact {
     flex: 2 2 auto;
 }
+
+.card-container.contact .card-inner-container {
+    word-break: break-all;
+}
