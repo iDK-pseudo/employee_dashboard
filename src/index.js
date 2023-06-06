@@ -9,7 +9,6 @@ import {Client as Styletron} from 'styletron-engine-atomic';
 import store from './store'
 import { Provider } from 'react-redux'
 
-
 const engine = new Styletron();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

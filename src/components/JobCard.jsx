@@ -22,7 +22,7 @@ function JobCard(props) {
                         <AccountTreeOutlinedIcon/>
                         <p>Department</p>
                     </td>
-                    <td>Engineering</td>
+                    <td data-testid="department">Engineering</td>
                 </tr>
             </table>
     </Card>

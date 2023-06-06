@@ -16,14 +16,14 @@ function ContactCard(props) {
                         <EmailOutlinedIcon/>
                         <p>Email</p>
                     </td>
-                    <td>johnsmith@cloudaeye.com</td>    
+                    <td data-testid="email">johnsmith@cloudaeye.com</td>    
                 </tr>
                 <tr>
                     <td className="label">
                         <LocalPhoneOutlinedIcon/>
                         <p>Phone</p>
                     </td>
-                    <td>+1 12345678</td>
+                    <td data-testid="phone">+1 12345678</td>
                 </tr>
                 <tr>
                     <td className="label">
