@@ -1,0 +1,49 @@
+.card-container.roles {
+    flex: 1 1 40vw;
+}
+
+.card-container.roles .card-inner-container {
+    height: 60vh;
+}
+
+.card-container.roles table{
+    text-align: left;
+    border-collapse: collapse;
+    height: 40vh;
+}
+
+.card-container.roles th {
+    background-color: rgb(102, 102, 102);
+}
+
+.card-container.roles th:nth-child(1){
+    border-top-left-radius: 6px;
+    padding: 10px 20px;
+}
+
+.card-container.roles th:nth-child(2){
+    border-top-right-radius: 6px;
+}
+
+.card-container.roles tr:nth-child(even){
+    background-color: rgb(66, 65, 65);
+}
+
+.card-container.roles tr:nth-child(odd){
+    background-color: rgb(35, 34, 34);
+}
+
+.card-container.roles td {
+    height: 40px;
+    padding: 0;
+}
+
+.card-container.roles td:nth-child(odd){
+    padding-left: 20px;
+    width: 50%;
+}
+
+.card-container.roles .roles-table-wrapper {
+    border: 1px solid white;
+    border-radius: 5px;
+}

@@ -1,0 +1,7 @@
+.side-nav {
+    width: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
